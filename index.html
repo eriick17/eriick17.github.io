@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <section class="description grid">
+            <div class="description__text">
+                <h1>Hola, mi nombre es Erick Romero</h1>
+                <p>Soy programador web, tengo 21 años, actualmente soy estudiante universitario de la carrera de Analisis de Sistemas, me considero una persona autodidacta. Me gustaría poder ayudarte en el proyecto que necesites.
+                </p>
+                <input type="button" class="button" value="Descargar CV">
+            </div>
+            <div class="description__img">
+                <img src="./assets/img/Hello_dev_3evm.svg" alt="Imagen de un desarrollador" srcset="">
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="skills">
+            <div class="items grid">
+                <h2>Tecnologias que manejo</h2>
+                <div class="item">
+                    <figure>
+                        <img src="/assets/img/javascript-seeklogo.com.svg" alt="Logo de Javascript" srcset="">
+                    </figure>
+                    <p>JavaScript es el lenguaje de programación de la Web.</p>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./assets/img/css3-seeklogo.com.svg" alt="Logo de CSS3" srcset="">
+                    </figure>
+                    <p>CSS es el lenguaje que usamos para diseñar un documento HTML.</p>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./assets/img/html5-seeklogo.com.svg" alt="Logo de HTML5" srcset="">
+                    </figure>
+                    <p>HTML es el lenguaje de marcado estándar para páginas web.</p>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./assets/img/Git-Icon.svg" alt="Logo de Github" srcset="">
+                    </figure>
+                    <p>Git es un sistema de control de versiones.</p>
+                </div>
+            </div>
+        </section>
+        <section class="form grid">
+            <h2>Contactame</h2>
+            <form enctype="text/plain" action="mailto:romerocent99@gmail.com" method="POST">
+                <input type="text" name="nombre" placeholder="Escriba su nombre" id="btn-name" required>
+                <input type="email" name="email" placeholder="Escriba su correo electronico" id="btn-email" required>
+                <textarea name="mensaje" placeholder="Escriba su mensaje" id="email-text" cols="30" rows="10" required></textarea>
+                <input type="submit" class="button" id="send-form" value="Enviar">
+            </form>
+            <div class="form__img-container">
+                <img src="./assets/img/Emails_re_cqen.svg" alt="Imagen de un email">
+            </div>
+        </section>
+    </main>
+    <footer  class="footer">
+        <section class="footer__social-media">
+            <h3> Redes Sociales:</h4>
+            <address>
+                <ul class="social-media__links">
+                    <li class="social-media__link"><a href="https://twitter.com/eriick17_" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                    <li class="social-media__link"><a href="https://www.facebook.com/profile.php?id=100043121043548" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="social-media__link"><a href="https://github.com/eriick17" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li class="social-media__link"><a href="https://www.linkedin.com/in/erick-romero-3b3011206/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </address>
+        </section>
+    </footer>
+</body>
+</html>
